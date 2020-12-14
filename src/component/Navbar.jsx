@@ -1,14 +1,15 @@
 import React from 'react';
+import './style.css';
 
 const Navbar = () => {
   return(
     <>
     <ul>
-    <li>Profile</li>
-    <li>Social</li>
-    <li>Projects</li>
-    <li>Resume</li>
-    <li>Hobbies</li>
+    <li ><button>Profile</button></li>
+    <li><button >Projects</button></li>
+    <li><button >Social</button></li>
+    <li><button >Resume</button></li>
+    <li><button >Hobbies</button></li>
     </ul>
     </>
   )
